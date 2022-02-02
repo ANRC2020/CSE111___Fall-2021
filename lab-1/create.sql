@@ -1,0 +1,11 @@
+DROP TABLE Product;
+DROP TABLE PC;
+DROP TABLE Laptop;
+DROP TABLE Printer;
+
+CREATE TABLE Product (
+    maker CHAR(32),
+    model INTEGER PRIMARY KEY,
+    type VARCHAR(20) NOT NULL
+);
+
